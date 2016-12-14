@@ -15,7 +15,7 @@ namespace Kata.FizzBuzz
             foreach (var i in Enumerable.Range(1, count))
             {
                 s += Append(i);
-                if (i < 100)
+                if (i < count)
                     s += "\r\n";
             }
             return s;
